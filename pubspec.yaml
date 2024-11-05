@@ -1,0 +1,32 @@
+name: frontend_test
+description: "A new Flutter project."
+
+# Prevent package from being accidentally published
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.5.3 <4.0.0" # Ensuring that the SDK version is valid
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_svg: ^2.0.5
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/diagonal-arrow.svg
+    - assets/images/right-arrow.svg
+    - assets/images/archery.svg
+    - assets/images/bulb.svg
+    - assets/images/home.svg
+    - assets/images/user.svg
+
